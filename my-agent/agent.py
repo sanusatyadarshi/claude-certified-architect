@@ -2,6 +2,12 @@ import asyncio
 
 from claude_agent_sdk import AssistantMessage, ClaudeAgentOptions, ResultMessage, query
 
+# Give Claude a custom system prompt:
+options = ClaudeAgentOptions(
+    allowed_tools=["Read", "Edit", "Glob", "Bash"],
+    permission_mode="acceptEdits",
+    system_prompt="You are a senior Python developer. Always follow PEP 8 style guidelines.",
+)
 
 async def main():
     # Agentic loop: streams messages as Claude works
