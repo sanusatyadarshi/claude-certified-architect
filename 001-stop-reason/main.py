@@ -1,3 +1,4 @@
+# https://platform.claude.com/docs/en/build-with-claude/handling-stop-reasons
 # https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/python
 # To run:
 # cd stop-reason
