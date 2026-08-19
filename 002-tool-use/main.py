@@ -1,7 +1,8 @@
 # https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/python#tool-use
 # To run:
-# cd tool-use
-# source ../stop-reason/.venv/bin/activate
+# cd 002-tool-use
+# (first time only) python3 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
+# source .venv/bin/activate
 # python3 main.py
 
 
